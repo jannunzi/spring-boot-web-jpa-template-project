@@ -1,4 +1,5 @@
-const genericTableUrl = "http://localhost:8080/api/generic"
+// const genericTableUrl = "http://localhost:8080/api/generic"
+const genericTableUrl = "https://spring-boot-web-jpa-template.herokuapp.com/api/generic"
 const findAll = (host, schema, username, password, table) =>
   fetch(`${genericTableUrl}/${table}`, {
     method: "POST",

@@ -1,9 +1,15 @@
-const FIND_ALL_SECTIONS  = "http://localhost:8080/findAllSections"
-const FIND_SECTION_BY_ID = "http://localhost:8080/findSectionById"
-const FIND_SECTIONS_FOR_COURSE = "http://localhost:8080/findSectionsForCourse"
-const CREATE_SECTION_URL = "http://localhost:8080/createSection"
-const DELETE_SECTION_URL = "http://localhost:8080/deleteSection"
-const UPDATE_SECTION     = "http://localhost:8080/updateSection"
+const FIND_ALL_SECTIONS  = "https://spring-boot-web-jpa-template.herokuapp.com//findAllSections"
+const FIND_SECTION_BY_ID = "https://spring-boot-web-jpa-template.herokuapp.com//findSectionById"
+const FIND_SECTIONS_FOR_COURSE = "https://spring-boot-web-jpa-template.herokuapp.com//findSectionsForCourse"
+const CREATE_SECTION_URL = "https://spring-boot-web-jpa-template.herokuapp.com//createSection"
+const DELETE_SECTION_URL = "https://spring-boot-web-jpa-template.herokuapp.com//deleteSection"
+const UPDATE_SECTION     = "https://spring-boot-web-jpa-template.herokuapp.com//updateSection"
+// const FIND_ALL_SECTIONS  = "http://localhost:8080/findAllSections"
+// const FIND_SECTION_BY_ID = "http://localhost:8080/findSectionById"
+// const FIND_SECTIONS_FOR_COURSE = "http://localhost:8080/findSectionsForCourse"
+// const CREATE_SECTION_URL = "http://localhost:8080/createSection"
+// const DELETE_SECTION_URL = "http://localhost:8080/deleteSection"
+// const UPDATE_SECTION     = "http://localhost:8080/updateSection"
 
 const findAllSections = () =>
   fetch(`${FIND_ALL_SECTIONS}`)

@@ -1,8 +1,13 @@
-const FIND_ALL_COURSES  = "http://localhost:8080/findAllCourses"
-const FIND_COURSE_BY_ID = "http://localhost:8080/findCourseById"
-const CREATE_COURSE_URL = "http://localhost:8080/createCourse"
-const DELETE_COURSE_URL = "http://localhost:8080/deleteCourse"
-const UPDATE_COURSE     = "http://localhost:8080/updateCourse"
+const FIND_ALL_COURSES  = "https://spring-boot-web-jpa-template.herokuapp.com//findAllCourses"
+const FIND_COURSE_BY_ID = "https://spring-boot-web-jpa-template.herokuapp.com//findCourseById"
+const CREATE_COURSE_URL = "https://spring-boot-web-jpa-template.herokuapp.com//createCourse"
+const DELETE_COURSE_URL = "https://spring-boot-web-jpa-template.herokuapp.com//deleteCourse"
+const UPDATE_COURSE     = "https://spring-boot-web-jpa-template.herokuapp.com//updateCourse"
+// const FIND_ALL_COURSES  = "http://localhost:8080/findAllCourses"
+// const FIND_COURSE_BY_ID = "http://localhost:8080/findCourseById"
+// const CREATE_COURSE_URL = "http://localhost:8080/createCourse"
+// const DELETE_COURSE_URL = "http://localhost:8080/deleteCourse"
+// const UPDATE_COURSE     = "http://localhost:8080/updateCourse"
 
 const findAllCourses = () =>
   fetch(`${FIND_ALL_COURSES}`)

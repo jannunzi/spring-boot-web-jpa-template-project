@@ -1,8 +1,14 @@
-const FIND_ALL_MOVIES = "http://localhost:8080/findAllMovies"
-const FIND_MOVIE_BY_ID = "http://localhost:8080/findMovieById"
-const CREATE_MOVIE_URL = "http://localhost:8080/createMovie"
-const DELETE_MOVIE_URL = "http://localhost:8080/deleteMovie"
-const RENAME_MOVIE = "http://localhost:8080/renameMovie"
+const FIND_ALL_MOVIES = "https://spring-boot-web-jpa-template.herokuapp.com//findAllMovies"
+const FIND_MOVIE_BY_ID = "https://spring-boot-web-jpa-template.herokuapp.com//findMovieById"
+const CREATE_MOVIE_URL = "https://spring-boot-web-jpa-template.herokuapp.com//createMovie"
+const DELETE_MOVIE_URL = "https://spring-boot-web-jpa-template.herokuapp.com//deleteMovie"
+const RENAME_MOVIE = "https://spring-boot-web-jpa-template.herokuapp.com//renameMovie"
+
+// const FIND_ALL_MOVIES = "http://localhost:8080/findAllMovies"
+// const FIND_MOVIE_BY_ID = "http://localhost:8080/findMovieById"
+// const CREATE_MOVIE_URL = "http://localhost:8080/createMovie"
+// const DELETE_MOVIE_URL = "http://localhost:8080/deleteMovie"
+// const RENAME_MOVIE = "http://localhost:8080/renameMovie"
 
 const findAllMovies = () =>
   fetch(`${FIND_ALL_MOVIES}`)
