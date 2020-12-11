@@ -11,7 +11,6 @@ class Row extends React.Component {
               key={key}
               column={key}
               value={this.props.row[key]}/>
-
           )
         }
       </div>
