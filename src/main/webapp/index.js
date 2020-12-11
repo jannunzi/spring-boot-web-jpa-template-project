@@ -1,4 +1,4 @@
 ReactDOM.render(
-  <App />,
+  <CourseList />,
   document.getElementById('root')
 )
